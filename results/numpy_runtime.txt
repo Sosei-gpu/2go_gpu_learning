@@ -1,0 +1,10 @@
+NumPy Matrix Multiplication Benchmark
+
+100 x 100: 0.00206 s
+500 x 500: 0.00376 s
+1000 x 1000: 0.02395 s
+2000 x 2000: 0.24667 s
+
+Observation:
+Runtime increases rapidly as matrix size increases.
+Matrix multiplication has approximately O(N^3) computational complexity.
